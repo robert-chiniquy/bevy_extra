@@ -4,11 +4,11 @@
     trivial_casts,
     trivial_numeric_casts,
     unsafe_code,
-    unstable_features,
     unused_import_braces,
     unused_qualifications,
     missing_docs
 )]
+#![feature(float_interpolation)]
 
 //! Ease plugin for Bevy
 
@@ -17,7 +17,7 @@ use std::time::Duration;
 #[cfg(feature = "ease_handle")]
 use rand::Rng;
 
-use bevy::{reflect::TypeUuid, prelude::*};
+use bevy::{prelude::*, reflect::TypeUuid};
 
 use interpolation::Ease as IEase;
 pub use interpolation::EaseFunction;
