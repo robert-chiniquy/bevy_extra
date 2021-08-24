@@ -1,3 +1,4 @@
+#![feature(float_interpolation)]
 #![deny(
     warnings,
     missing_copy_implementations,
@@ -8,7 +9,6 @@
     unused_qualifications,
     missing_docs
 )]
-#![feature(float_interpolation)]
 
 //! Ease plugin for Bevy
 
