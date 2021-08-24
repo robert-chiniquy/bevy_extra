@@ -23,7 +23,7 @@ default-features = false
 features = [ "render" ]
 
 [features]
-default = [ "ease_handle" ]
+default = []
 ease_handle = [ "rand" ]
 
 [[example]]
